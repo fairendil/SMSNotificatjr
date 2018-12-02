@@ -1,8 +1,8 @@
 ﻿namespace SmsNotificator
 {
-    public class AppSettings
+    public class PushoverTokens
     {
         public string AppToken { get; set; }
-        public int Version { get; set; }
+        public string UserKey { get; set; }
     }
 }
